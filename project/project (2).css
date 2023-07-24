@@ -1,0 +1,688 @@
+body{
+    font-family: 'Poppins';
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+}
+.brend{
+    background-color: rgb(51,49,59);
+    height: 91.2px;
+    width: 160.92px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+.collapse{
+    justify-content: end;
+}
+.nav-link{
+    padding: 24px 20px !important;
+}
+.container{
+    margin: 0px 165px !important;
+}
+.navbar-brand{
+    color: rgb(255,255,255) !important;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0 1em;
+    line-height: 1.2;
+    text-align: center;
+}
+.sp1{
+    font-size: 26px;
+}
+.sp{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.active{
+    color: rgb(215,155,94) !important;
+}
+.btn{
+    background-color: rgb(249,170,48) !important;
+    border: none !important;
+    color: rgb(255,255,255) !important;
+    border-radius: 2px !important;
+    font-size: 15px;
+    padding: 15px 18px !important;
+    }
+.an:hover{
+    color: black;
+}
+.main{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/bg_2.jpg.webp);
+    height: 789px;
+    background-size: cover;
+}
+.over{
+    position: absolute;
+    opacity: 0.4;
+    background:linear-gradient(45deg, #2f88fc 0%, #ff5959 100%);
+    width: 100%;
+    height: 789px;
+}
+.mid{
+    margin: 0px;
+    padding: 0px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 240px;
+}
+.pulse{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(249,170,48);
+    border-radius: 50%;
+    line-height: 100px;
+    animation: animate 2.5s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon1{
+    font-size: 12px;
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+@keyframes animate{
+    0%{
+        box-shadow:0 0 0 0 rgba(249,170,48, 7);
+    }
+    40%{
+        box-shadow:0 0 0 30px rgba(215, 204, 189, 0);
+    }
+    75%{
+        box-shadow:0 0 0 30px rgba(212, 201, 184, 0);
+    }
+    100%{
+        box-shadow:0 0 0 0 rgba(216, 199, 173, 0);
+    }
+}
+.dec{
+    display: table;
+    margin: auto;
+    margin-top: 260px;
+}
+.x1{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: 300;
+}
+.ember{
+    display: table;
+    margin: auto;
+    width: 663px;
+    margin-top: -15px;
+}
+.x2{
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: 300;
+}
+.kur{
+    display: table;
+    margin: auto;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: 300;
+    margin-top:-35px;
+}
+
+
+
+.book{
+    background-color:rgb(51,49,59);
+    position: relative;
+    display: flex;
+    margin: 103px 165px 0 165px;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 24px;
+}
+.elemeni{
+    display: flex;
+    flex-direction: column;
+}
+.d23{
+    color: white;
+    font-size:18px ;
+    color: rgb(255, 254, 254);
+}
+.d24{
+    background-color: transparent;
+    border: none;
+}
+.yey{
+    padding: 20px 65px;
+    border: none;
+    background-color: rgb(249,170,48);
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.nimag{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.timg{
+    width: 60px;
+    height: 60px;
+    
+}
+.asmall{
+    font-size: 16px;
+}
+.left-top {
+  width: 50%;
+  height: 50%;
+  padding: 0px 15px;
+  margin: 0px 0px 40px;
+  font-size: 16px;
+  color: gray;
+}
+.left-right {
+  width: 50%;
+  height: 50%;
+  padding: 0px 15px;
+  margin: 0px 0px 40px;
+  font-size: 16px;
+  color: gray;
+}
+.left-bottom {
+  width: 50%;
+  height: 50%;
+  padding: 0px 15px;
+  margin: 0px 0px 40px;
+  font-size: 16px;
+  color: gray;
+}
+.left-bottom-right {
+  width: 50%;
+  height: 50%;
+  padding: 0px 15px;
+  margin: 0px 0px 40px;
+  font-size: 16px;
+  color: gray;
+}
+.main3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding:112px 165px;
+  background-color:rgb(249,250,251);
+
+}
+.left {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  flex-wrap: wrap;
+}
+.right {
+  width: 50%;
+  height: 50%;
+  padding: 0px 15px 0px 48px;
+}
+.p5{
+  margin: 0px 0px 24px;
+  font-size: 45px;
+  color: black;
+  font-weight: 600;
+}
+
+.l{
+  font-size: 16px;
+  color: gray;
+  margin: 0px 0px 16px;
+}
+.z{
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    background-color: orange;
+    border: none;
+    color: white;
+  }
+
+
+.t{
+ font-size: 40px;
+ color: black;
+ text-align: center;
+ margin-bottom: 48px;
+  }
+.main5 {
+  display: flex;
+  justify-content: center;
+  margin:0 165px;
+  margin-bottom: 140px;
+}
+.secbot{
+    padding:24px;
+}
+.sma23{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+.text{
+    font-size: 12px;
+    color: gray;
+}
+.text1{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -8px !important;
+}
+.text2{
+    color: gray;
+}
+.number{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.clue{
+    font-size: 12px;
+    color:  orange;
+    align-self: center;
+}
+.img1 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-1.jpg.webp);
+}
+.img{
+  width: 349px;
+  height: 270px;
+  background-position: center;
+  background-size: cover;
+}
+
+.img2 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-2.jpg.webp);
+}
+
+.img3 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-3.jpg.webp);
+}
+
+.img4 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-4.jpg.webp);
+}
+
+.img5 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-5.jpg.webp);
+}
+
+.img6 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/destination-6.jpg.webp);
+}
+.butt {
+  border: none;
+  border-radius: 50px;
+  background-color: orange;
+  color: aliceblue;
+  padding:8px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: -43px;
+}
+.n {
+  box-sizing: border-box;
+  border: solid 0.2px rgb(202, 198, 198);
+  height: 490px;
+}
+
+.main2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 165px;
+}
+.image34{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/about.jpg.webp);
+    width: 540px;
+    height: 538px;
+    background-size: cover;
+    background-position: center;
+}
+.right{
+    padding: 48px 15px 48px 48px;
+}
+.v1{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.pl{
+    font-size: 17px;
+    color: grey;
+}
+.right-bott{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+.kv{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(249,170,48);
+}
+.soc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+}
+.jk{
+    font-size: 14px;
+}
+.ek{
+    font-weight: 700;
+    display: table;
+    margin: auto;
+    margin-top: 112px;
+    margin-bottom: 54px;
+}
+.main4{
+    margin:0 165px 112px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.small{
+    display: flex;
+    width: 255px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+.c1{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/place-1.jpg.webp);
+}
+.c2{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/place-2.jpg.webp);
+}
+.c3{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/place-3.jpg.webp);
+}
+.c4{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/place-4.jpg.webp);
+}
+.r2{
+    color: white;
+    font-size: 22px;
+}
+.b1{
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 161px;
+    padding: 4px 5px 4px 15px;
+    color: white;
+    background-color: rgb(51,49,59);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-size: 16px;
+}
+.b1:hover{
+    background-color: rgb(249,170,48);
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.cont{
+    width: 100%;
+    height: 676px;
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/footer-bg.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 112px 0px;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    width: 100%;
+    padding: 0 165px;
+}
+.vf{
+    display: flex;
+    flex-direction: column;
+}
+.v3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.l4{
+    color: rgb(182, 185, 189);
+}
+.y4{
+    width: 200px;
+}
+.b3{
+    margin: 8px 0px;
+}
+
+.main8{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 165px 140px 165px ;
+    gap: 30px;
+}
+.tjk{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    margin-top: 112px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.img56{
+    width: 350px;
+    height: 270px;
+    margin-bottom: 16px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.uk2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bn50{
+    font-size:18px ;
+    color: grey;
+}
+.small3{
+    width:350px;
+}
+.f56{
+    margin-bottom: 16px;
+}
+.bn4{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/image_2.jpg.webp);
+}
+.bn5{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/image_3.jpg.webp);
+}
+.bn6 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/image_1.jpg.webp);
+  }
+.uk2:hover{
+    color:rgb(249,170,48);
+}
+.kv567{
+    background-color:rgb(249,170,48);
+    width:130px;
+    border-top-right-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 200px;
+}
+.day{
+    font-size: 40px;
+    color: white;
+}
+.year{
+    font-size: 13px;
+    color: white;
+}
+.mon{
+    font-size: 13px;
+    color: white;
+}
+.right4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.day2{
+    margin-bottom: 20px;
+}
+  
+
+.img10 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/person_2.jpg.webp);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.item {
+    width: 350px;
+    height: 270px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.tt1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tt2 {
+    margin-left:15px;
+}
+
+.main16{
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/bg_3.jpg.webp);
+    background-size: cover;
+    width: 100%;
+    height: 701px;
+    padding: 112px 0;
+    background-position: center;
+}
+.owl-carousel {
+    width: 1033px;
+    height: 701px;
+    padding: 0 165px;
+}
+.vsdg{
+    font-size: 40px;
+    color: black;
+    display: table;
+    margin: auto;
+    margin-bottom: 64px;
+    font-weight: 600;
+}
+.img11 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/person_1.jpg.webp);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.ghe23{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ghe237{
+    color: rgb(175, 169, 169);
+}
+.ed2{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.img12 {
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/person_3.jpg.webp);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.item{
+    padding:24px 20px;
+}
+.act{
+    font-size: 18px;
+    color: black;
+}
+.sas{
+    font-size: 18px;
+    align-self: center;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 989px){
+    .navbar{
+        background-color: black;
+    }
+    .navbar-toggler{
+        border: none !important;
+    }
+    .book{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .dvf{
+        margin-bottom: 10px;
+    }
+    .main4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .small{
+        width: 120px;
+    }
+    .sma23{
+        display: flex;
+        justify-content: center;
+    }
+    .n{
+        width: 190px;
+    }
+    .img{
+        width: 190px;
+    }
+}
